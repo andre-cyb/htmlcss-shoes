@@ -1,0 +1,108 @@
+
+/* dopo miglioro il css */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+/* header::before{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+
+header{
+   
+    background-color: grey;
+    width: 100%; 
+    position: fixed;
+}
+header ul{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    list-style-type: none;
+    z-index: 9;
+    /* float: right; */
+}
+header li{
+    display: inline-block;
+    background-color: white;
+    /* border-radius: 50%; */
+      
+}
+
+
+header ul li a{
+    padding:2px 2px ;
+    display: inline-block;
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+main section{
+    height: 100vh;
+    position: relative;
+}
+
+
+
+.rosso{
+    background-color: red;
+    z-index: 3;
+} 
+.verde{
+    background-color: green;
+    z-index: 3;
+}
+.giallo{
+    z-index: 3;
+    background-color: yellow;
+}
+
+
+
+
+/* .product-container{
+    background-color: silver;
+} */
+
+
+
+
+img{
+    width: 100%;
+}
+
+
+
+.container-img{
+    object-fit: cover;
+
+}
+
+
+
+.product-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+div h1{
+    font-size: 40px;
+    color: yellow;
+    padding: 0px 70px;
+    text-align: center;
+
+}
